@@ -3,8 +3,133 @@
 .mulish-font {
     font-family: "Mulish", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+   
     font-style: normal;
   }
 
-  
+ 
+/* default style */
+
+*{
+    margin: 0;
+
+ }
+
+
+  .container{
+    width: 90%;
+    margin: 5rem auto;
+    border-radius: 1rem;
+
+
+     }
+h3,h1{
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+ /* Navbar  */
+
+ .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+    width: 280px;
+    
+ }
+
+ .logo-img{
+    width: 48px;
+    height: 56px;
+    margin-right: 0.5rem;
+ }
+
+ .nav-opt{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+ }
+
+ .spa{
+    color: #f37309;
+ }
+
+ .nav-opt p{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+.explore-sec{
+    background-image: linear-gradient(180deg,rgba(19,19,24,0.8)0% ,
+    rgba(19,19,24,0) 100%),url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    padding: 7rem 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+.explore p{
+    color: rgb(244, 248, 252);
+    font-size: 18px;
+    line-height: 26px;
+    width: 676px;
+    padding: 1.5rem ;
+    margin: auto;
+    text-align: center;
+}
+
+.ex-opt{
+    margin-top: 2rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.2);
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(4px);
+}
+
+input,select{
+    width: 175px;
+    height: 50px;
+    padding: 0 auto;
+    margin: 0 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.btn-primary{
+    width: 175px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:8px;
+    border-radius: 8px;
+    border:1px solid #f37309;
+    background-color: #f37309;
+    cursor: pointer;
+}
