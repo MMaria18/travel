@@ -122,6 +122,7 @@ input,select{
 
 
 .btn-primary{
+   
     width: 175px;
     height: 50px;
     display: flex;
@@ -132,4 +133,27 @@ input,select{
     border:1px solid #f37309;
     background-color: #f37309;
     cursor: pointer;
+    font-size: large;
+}
+.popular-sec{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.popular p,.popular li{
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+   
+    margin: 15px auto;
+
+}
+
+.popular h3{
+    text-align: left;
 }
